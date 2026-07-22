@@ -141,12 +141,12 @@ Preparare l'ambiente di lavoro e organizzare correttamente il progetto.
 - [x] Creazione del file `README.md`
 - [x] Creazione del file `ROADMAP.md`
 - [x] Creazione del file `PROGRESS.md`
-- [ ] Creazione del repository GitHub
-- [ ] Scelta dello stack tecnologico iniziale
-- [ ] Creazione del progetto applicativo
-- [ ] Apertura del progetto nell'ambiente di sviluppo
-- [ ] Primo avvio locale
-- [ ] Primo commit Git
+- [x] Creazione del repository GitHub
+- [x] Scelta dello stack tecnologico iniziale
+- [x] Creazione del progetto applicativo
+- [x] Apertura del progetto nell'ambiente di sviluppo
+- [x] Primo avvio locale
+- [x] Primo commit Git
 
 ### Risultato atteso
 
