@@ -37,3 +37,17 @@
 - Imparato: un branch locale e il relativo branch remoto sono riferimenti distinti; l'upstream permette a Git di sapere automaticamente dove eseguire `push` e `pull`.
 - Imparato: Git Credential Manager gestisce l'autenticazione HTTPS e può conservare credenziali non più valide, che devono essere rimosse per forzare un nuovo accesso.
 - Prossimo passo: progettare l'architettura iniziale di MyBudget prima di generare il backend e il frontend.
+
+-----
+
+## 22/07/2026
+
+- Fatto: Eseguita la prima Pull Request del progetto, integrando il branch `feature-movement-model` in `main` tramite **Merge Commit**.
+- Imparato: Compreso il significato di **Pull** (sincronizzazione del repository locale con il repository remoto) e di **Pull Request** (meccanismo di revisione e integrazione delle modifiche tra branch);
+    Analizzate le differenze tra le strategie di integrazione:
+  - **Merge Commit**: mantiene la storia completa della feature creando un commit di merge.
+  - **Squash**: crea un nuovo commit che rappresenta l'intera feature, condensando i commit precedenti.
+  - **Rebase**: riscrive la storia rendendola lineare senza creare un merge commit.unico commit di merge) e rebase (ridefinizione dei commit già presenti).
+- Fatto: Eliminato il branch `feature-movement-model` sia in locale che sul repository remoto, completando il ciclo di vita della feature.
+- Imparato: Compreso il ciclo di vita di una feature branch e quando è corretto eliminarla dopo l'integrazione in `main`.
+- Prossimo passo: Definire l'architettura iniziale del progetto e iniziare lo sviluppo della prima funzionalità.
